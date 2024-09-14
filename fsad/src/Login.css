@@ -1,0 +1,99 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .card {
+    width: 450px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login {
+    text-align: center;
+  }
+  
+  .login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .login form div {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .captcha-section {
+    text-align: left;
+  }
+  
+  .captcha-btn {
+    background-color: #2f5bbf;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .captcha-display {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+    margin-top: 8px;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  .otp-checkbox {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .sign-in-btn {
+    background-color: #f47920;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .forgot-link {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .register-btn,
+  .agent-login-btn {
+    background-color: #2f5bbf;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
